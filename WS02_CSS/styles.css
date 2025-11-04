@@ -1,0 +1,24 @@
+/* Koko sivun tausta */
+body {
+    background-color: #f4f4f4; /* Vaaleanharmaa tausta */
+    color: #333; /* Tumma teksti */
+    font-family: Arial, sans-serif; /* Aseta fontti */
+}
+
+/* Otsikot */
+h1 {
+    font-size: 2.5em; /* Suurenna pääotsikon kokoa */
+    color: #0066cc; /* Laurea-tyyppinen sininen */
+}/* Tehtävä 3: Container-elementin tyylit (Padding ja Margin) */
+.container {
+    /* Ulkoreunus: Keskittää elementin vaakasuunnassa ja lisää tilaa ylös/alas */
+    margin: 20px auto; 
+    
+    /* Sisäreunus: Lisää tilaa sisällön ja elementin reunan väliin */
+    padding: 30px; 
+    
+    /* Muut ulkoasua parantavat ominaisuudet */
+    width: 80%; /* Asettaa kontille ennalta määrätyn leveyden */
+    background-color: white; /* Valkoinen tausta erottaa sen body-taustasta */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Kevyt varjo */
+}
