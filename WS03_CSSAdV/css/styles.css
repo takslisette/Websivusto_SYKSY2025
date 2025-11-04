@@ -1,0 +1,13 @@
+.transition-button {
+  background-color: lightblue;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transition-button:hover {
+  background-color: lightcoral;
+}
