@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
 .transition-button {
   background-color: lightblue;
   color: black;
