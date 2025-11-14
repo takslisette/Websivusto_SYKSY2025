@@ -67,7 +67,7 @@ p {
       }
       
       .transition-button:hover {
-        background-color: lightcoral;
+        background-color: rgb(64, 8, 206);
       }
       .animation-box {
         width: 50px;
