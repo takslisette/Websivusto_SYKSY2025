@@ -85,12 +85,6 @@ p {
           left: 100px;
         }
       }
-      <ul class="pseudo-list">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-      </ul>
 
     .pseudo-list li:nth-child(odd) {
         background-color: lightgray;
@@ -107,15 +101,12 @@ p {
       .filter-image:hover {
         filter: grayscale(0%);
       }
-      <blockquote class="quote">
-        Kiva kun pääsit tänne asti <3
-      </blockquote>
       .quote {
         position: relative;
         padding-left: 20px;
         font-style: italic;
       }
-      
+
       .quote::before {
         content: '“';
         font-size: 40px;
