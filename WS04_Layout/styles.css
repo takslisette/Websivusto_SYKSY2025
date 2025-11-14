@@ -123,7 +123,18 @@ input[type="submit"]:hover {
     align-items: center;
   }
    .box {
-    background-color: lightblue;
+    background-color: rgb(100, 150, 185);
+    padding: 20px;
+    text-align: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgb(6, 85, 196);
     padding: 20px;
     text-align: center;
   }
