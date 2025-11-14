@@ -145,12 +145,12 @@ input[type="submit"]:hover {
   
   @media (max-width: 600px) {
     .responsive-box {
-      background-color: lightcoral;
+      background-color: rgb(215, 201, 36);
     }
   }
   
   @media (min-width: 601px) {
     .responsive-box {
-      background-color: lightseagreen;
+      background-color: rgb(25, 174, 197);
     }
   }
