@@ -169,7 +169,9 @@ input[type="submit"]:hover {
         flex: 100%;
       }
     }
-    .responsive-image {
-      max-width: 100%;
-      height: auto;
-    }
+  .responsive-image {
+  max-width: 50%; 
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+}
