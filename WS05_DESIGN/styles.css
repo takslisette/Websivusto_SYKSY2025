@@ -191,3 +191,17 @@ input[type="submit"]:hover {
     background-color: rgb(54, 57, 211);
   }
 }
+.responsive-nav .nav-list {
+      display: flex;
+      list-style: none;
+    }
+    
+    @media (max-width: 600px) {
+      .responsive-nav .nav-list {
+        display: none;
+      }
+    
+      .responsive-nav .menu-toggle {
+        display: block;
+      }
+    }
