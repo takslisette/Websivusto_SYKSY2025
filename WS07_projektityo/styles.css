@@ -1,11 +1,50 @@
 p {
-  color: rgb(239, 229, 80);
+  color: rgb(4, 4, 0);
 }
 
 body {
-  background-color: rgba(13, 46, 178, 0.477);
+    background-color: rgba(0, 13, 64, 0.997) !important;
 }
+
 
 h1 {
   font-size: 2em;
+}
+/* Poista oletusmarginaali, niin kuva istuu koko näytölle */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background-container {
+  /* koko ruutu */
+  min-height: 100vh;
+  width: 100%;
+  /* taustakuva ja asetukset */
+  background-image: url('Images/pelaajakuva.JPG.jpeg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  /* jos haluat tumman overlayn kuvan päälle (helpottaa tekstin lukemista) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* esim. tumma läpinäkyvä kerros */
+  background-color: rgba(255, 255, 255, 0.4); /* tumma sävy */
+  background-blend-mode: darken;
+}
+
+.content-box {
+  background: rgba(255, 255, 255, 0.855); /* valkoinen box + hieman läpinäkyvä */
+  padding: 2rem;
+  width: 50%;          /* leveys suhteessa vanhempaan */
+  max-width: none;     /* leveys boxille */
+  margin: 1rem;          /* pieni marginaali */
+  border-radius: 8px;    /* pyöristetyt kulmat (valinnainen) */
+  box-shadow: 0 4px 10px rgba(0, 31, 79, 0.996); /* varjo, jotta tulee esiin */
+  
+  text-align: center; /* teksti keskelle / vois valita myös vasempaan */
 }
