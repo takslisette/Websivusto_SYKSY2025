@@ -10,7 +10,20 @@
   </head>
   <body>
 
-      <h1 style="color: rgb(239, 219, 2)">Hei! Olen Lisette Täks</h1>
+      <h1 style="color: rgb(239, 219, 2)">Projektityö</h1>
+      <header class="nav-bar">
+  <!-- Logo vasemmalla -->
+  <div class="logo">
+    <a href="index.html"><img src="Images/logo.JPG" alt="Logo" /></a>
+  </div>
+
+  <!-- Navigointilinkit -->
+  <nav class="nav-links">
+    <a href="index.html">Etusivu</a>
+    <a href="toinensivu.html">Galleria</a>
+    <a href="kolmannensivu.html">Kolmas sivu</a>
+
+  </nav>
       <hr />
     </header>
     <meta charset="utf-8">
@@ -34,7 +47,33 @@ Puhdin naisten joukkueen kautta siirtynyt
  4 vuodeksi Kuortaneen urheilulukioon. Valmistumisen jälkeen Espooseen, jossa 4 kausi alkanut syksyllä.
  </p>
     </div>
+        
   </div>
+  <button onclick="window.location.href='toinensivu.html'" class="my-button">
+  Kuvagalleria
+</button>
+
+<style>
+.my-button {
+  padding: 12px 24px;
+  background-color: #c4a702;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.my-button:hover {
+  background-color: #e7c103;
+}
+</style>
+
+
+</body>
+</html>
+
 </body>
     <footer>
       <p>© 2025 Lisette Täks</p>

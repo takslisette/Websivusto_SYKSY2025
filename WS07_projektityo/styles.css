@@ -48,3 +48,38 @@ html, body {
   
   text-align: center; /* teksti keskelle / vois valita myös vasempaan */
 }
+.carousel-item img {
+  width: 50%;    /* kuvan leveys suhteessa vanhempaan elementtiin */
+  height: auto;  /* korkeus skaalautuu automaattisesti */
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between; /* logo vasemmalle, linkit oikealle */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffd000b1; /* taustaväri */
+  color: white;
+  position: sticky; /* pysyy ylhäällä scrollatessa */
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-bar .logo img {
+  height: 50px; /* logo korkeus */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+
+
