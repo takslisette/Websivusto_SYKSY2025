@@ -41,10 +41,6 @@
 </header>
 <h2>Omat kuvat</h2>
 
-<img src="Images/mestaruuskuva.JPEG" alt="Kuva 1" style="width:300px; margin:10px; border-radius:10px;">
-<img src="Images/pelaajakuva.JPG.jpeg" alt="Kuva 2" style="width:300px; margin:10px; border-radius:10px;">
-<img src="Images/logo.JPG" alt="Kuva 3" style="width:300px; margin:10px; border-radius:10px;">
-
 <title>Kuvakaruselli nuolilla</title>
 <style>
 body {
@@ -56,12 +52,12 @@ body {
 
 .carousel {
   position: relative;
-  width: 500px;
-  max-width: 90%;
+  width: 700px;
+  max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(255, 251, 0, 0.551);
 }
 
 .carousel-track {
@@ -83,8 +79,8 @@ body {
   top: 50%;
   transform: translateY(-50%);
   font-size: 2rem;
-  color: rgba(255,255,255,0.8);
-  background-color: rgba(0,0,0,0.3);
+  color: rgba(254, 237, 3, 0.8);
+  background-color: rgba(0, 0, 0, 0.229);
   border: none;
   padding: 10px;
   cursor: pointer;
@@ -92,7 +88,7 @@ body {
 }
 
 .arrow:hover {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(1, 23, 55, 0.645);
 }
 
 .arrow-left {
@@ -113,6 +109,12 @@ body {
     <div class="carousel-item"><img src="Images/logo.JPG" alt="Kuva 1"></div>
     <div class="carousel-item"><img src="Images/pelaajakuva.JPG.jpeg" alt="Kuva 2"></div>
     <div class="carousel-item"><img src="Images/mestaruuskuva.JPEG" alt="Kuva 3"></div>
+    <div class="carousel-item"><img src="Images/make.JPEG" alt="Kuva 4"></div>
+    <div class="carousel-item"><img src="Images/maali.JPEG" alt="Kuva 5"></div> 
+    <div class="carousel-item"><img src="Images/siniviiva.JPEG" alt="Kuva 6"></div>
+    <div class="carousel-item"><img src="Images/winter.JPEG" alt="Kuva 7"></div>
+    <div class="carousel-item"><img src="Images/pelikuva2.JPEG" alt="Kuva 8"></div>
+    <div class="carousel-item"><img src="Images/" alt="Kuva 9"></div>
   </div>
   <button class="arrow arrow-left">&#10094;</button>
   <button class="arrow arrow-right">&#10095;</button>
@@ -137,6 +139,9 @@ prev.addEventListener('click', () => showSlide(index - 1));
 next.addEventListener('click', () => showSlide(index + 1));
 </script>
 </header>
-
+</body>
+    <footer>
+      <p>© 2025 Lisette Täks</p>
+    </footer>
 </body>
 </html>
