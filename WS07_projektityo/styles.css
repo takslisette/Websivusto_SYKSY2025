@@ -3,7 +3,7 @@ p {
 }
 
 body {
-    background-color: rgba(0, 13, 64, 0.997) !important;
+    background-color: #000032ee !important;
 }
 
 
@@ -58,11 +58,20 @@ html, body {
   justify-content: space-between; /* logo vasemmalle, linkit oikealle */
   align-items: center;
   padding: 10px 20px;
-  background-color: #ffd000b1; /* taustaväri */
+  background-color: #FEDD00; /* taustaväri */
   color: white;
   position: sticky; /* pysyy ylhäällä scrollatessa */
   top: 0;
   z-index: 1000;
+}
+.nav-links {
+  display: flex;
+  justify-content: center; /* keskittää napit */
+  flex: 1; /* ottaa kaiken keskialueen tilan */
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bar .logo img {
@@ -78,7 +87,7 @@ html, body {
 }
 
 .nav-links a:hover {
-  color: #ffcc00;
+  color: #ED8B00;
 }
 .carousel img {
   width: 120%;
