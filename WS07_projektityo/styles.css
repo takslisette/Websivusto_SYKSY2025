@@ -81,11 +81,8 @@ html, body {
   color: #ffcc00;
 }
 .carousel img {
-  width: 100%;
+  width: 120%;
   height: 500px; /* tai haluamasi korkeus */
   object-fit: cover;
 }
-
-
-
 
