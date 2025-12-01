@@ -1,83 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fi">
-  <head>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <title>My First HTML Page</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projektityö</title>
 
-      <h1 style="color: rgb(239, 219, 2)">Projektityö</h1>
-      <header class="nav-bar">
-  <!-- Logo vasemmalla -->
-  <div class="logo">
-    <a href="index.html"><img src="Images/logo.JPG" alt="Logo" /></a>
-  </div>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Navigointilinkit -->
-  <nav class="nav-links">
+  <!-- Oma CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h1 style="color: rgb(239, 219, 2)">Projektityö</h1>
+
+  <header class="nav-bar">
+    <!-- Logo vasemmalla -->
+    <div class="logo">
+      <a href="index.html"><img src="Images/logo.JPG" class="img-fluid" alt="Logo" /></a>
+    </div>
+
+    <!-- Navigointilinkit -->
+ <nav class="nav-links">
     <a href="index.html">Etusivu</a>
     <a href="kolmassivu.html">Saavutukset</a>
     <a href="toinensivu.html">Galleria</a>
     <a href="neljässivu.html">jotain</a>
     
   </nav>
-      <hr />
-    </header>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-     <div class="background-container">
+</nav>
+
+    </nav>
+    <hr />
+  </header>
+
+  <div class="background-container">
     <div class="content-box">
       <h1>Lisette Täks</h1>
-      <p>22-vuotias naisjääkiekkoilija, 
-syntynyt 22.2.2003 Tartossa Virossa.
-Aloittanut ammattikorkeakouluopinnot syksyllä 2025 (tradenomi, tietojenkäsittely)
+      <p>
+        22-vuotias naisjääkiekkoilija, 
+        syntynyt 22.2.2003 Tartossa Virossa.
+        Aloittanut ammattikorkeakouluopinnot syksyllä 2025 (tradenomi, tietojenkäsittely)
 
-Pelannut jääkiekkoa  14 vuotta. 
+        Pelannut jääkiekkoa 14 vuotta.
 
-Aloittanut Aakoon poikajoukkueessa. 
-Puhdin naisten joukkueen kautta siirtynyt
- 4 vuodeksi Kuortaneen urheilulukioon. Valmistumisen jälkeen Espooseen, jossa 4 kausi alkanut syksyllä.
- </p>
+        Aloittanut Aakoon poikajoukkueessa. 
+        Puhdin naisten joukkueen kautta siirtynyt 4 vuodeksi Kuortaneen urheilulukioon. Valmistumisen jälkeen Espooseen, jossa 4 kausi alkanut syksyllä.
+      </p>
     </div>
-        
   </div>
+
   <button onclick="window.location.href='toinensivu.html'" class="my-button">
-  Kuvagalleria
-</button>
+    Kuvagalleria
+  </button>
 
-<style>
-.my-button {
-  padding: 12px 24px;
-  background-color: #c4a702;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
+  <style>
+    .my-button {
+      padding: 12px 24px;
+      background-color: #c4a702;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
 
-.my-button:hover {
-  background-color: #e7c103;
-}
-</style>
+    .my-button:hover {
+      background-color: #e7c103;
+    }
 
+    img.img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <footer>
+    <p>© 2025 Lisette Täks</p>
+  </footer>
 
 </body>
-</html>
-
-</body>
-    <footer>
-      <p>© 2025 Lisette Täks</p>
-    </footer>
-  </body>
 </html>
