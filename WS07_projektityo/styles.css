@@ -94,4 +94,23 @@ html, body {
   height: 500px; /* tai haluamasi korkeus */
   object-fit: cover;
 }
+    .my-button {
+      padding: 12px 24px;
+      background-color: #c4a702;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .my-button:hover {
+      background-color: #e7c103;
+    }
+
+    img.img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
 
