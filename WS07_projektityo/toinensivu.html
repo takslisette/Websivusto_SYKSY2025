@@ -1,27 +1,56 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Toinen sivu</title>
- <link rel="stylesheet" href="styles.css">
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #f6f6fb;
-    text-align: center;
-  }
+  <title>Kuvakaruselli nuolilla</title>
 
-  h1 {
-    color: #d5b900;
-  }
+  <link rel="stylesheet" href="styles.css">
 
-  p {
-    font-size: 1.1em;
-  }
-</style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f6f6fb;
+      text-align: center;
+    }
+
+    h1 { color: #d5b900; }
+    p { font-size: 1.1em; }
+
+    .carousel {
+      position: relative;
+      width: 700px;
+      max-width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(255, 251, 0, 0.551);
+    }
+
+    .carousel-track { display: flex; transition: transform 0.5s ease-in-out; }
+    .carousel-item { min-width: 100%; }
+    .carousel-item img { width: 100%; border-radius: 10px; }
+
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      color: rgba(254, 237, 3, 0.8);
+      background-color: rgba(0, 0, 0, 0.229);
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    .arrow:hover { background-color: rgba(1, 23, 55, 0.645); }
+    .arrow-left { left: 10px; }
+    .arrow-right { right: 10px; }
+  </style>
+
 </head>
 <body>
 
@@ -41,67 +70,6 @@
   </nav>
 </header>
 <h2>Omat kuvat</h2>
-
-<title>Kuvakaruselli nuolilla</title>
-<style>
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
-  background: #fafafa;
-}
-
-.carousel {
-  position: relative;
-  width: 700px;
-  max-width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(255, 251, 0, 0.551);
-}
-
-.carousel-track {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-item {
-  min-width: 100%;
-}
-
-.carousel-item img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  color: rgba(254, 237, 3, 0.8);
-  background-color: rgba(0, 0, 0, 0.229);
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 50%;
-}
-
-.arrow:hover {
-  background-color: rgba(1, 23, 55, 0.645);
-}
-
-.arrow-left {
-  left: 10px;
-}
-
-.arrow-right {
-  right: 10px;
-}
-</style>
-</head>
-<body>
 
 <h1>Slideshow / Karuselli</h1>
 
@@ -140,8 +108,6 @@ function showSlide(i) {
 prev.addEventListener('click', () => showSlide(index - 1));
 next.addEventListener('click', () => showSlide(index + 1));
 </script>
-</header>
-</body>
     <footer>
       <p>© 2025 Lisette Täks</p>
     </footer>
