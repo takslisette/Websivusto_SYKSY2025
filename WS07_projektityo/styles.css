@@ -66,7 +66,7 @@ html, body {
 }
 .nav-links {
   display: flex;
-  justify-content: center; /* keskittää napit */
+  justify-content: right; /* keskittää napit */
   flex: 1; /* ottaa kaiken keskialueen tilan */
   list-style: none;
   gap: 25px;
