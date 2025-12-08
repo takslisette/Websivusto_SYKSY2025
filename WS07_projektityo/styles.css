@@ -65,7 +65,7 @@ body {
   padding: 10px 20px;
   background-color: #fedd00; /* taustaväri */
   color: white;
-  position: sticky; /* pysyy ylhäällä scrollatessa */
+  position: top; /* pysyy ylhäällä scrollatessa */
   top: 0;
   z-index: 1000;
 }
@@ -919,4 +919,6 @@ footer {
   .achievements-grid {
     grid-template-columns: 1fr;
   }
-}
+  }
+
+
